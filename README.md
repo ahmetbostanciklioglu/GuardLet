@@ -4,7 +4,7 @@ Guard let optional unwrapping
 
 
 **Guard let unwrapping:**
-
+```
 func optinalParamFunc(_ optionalParameter: String? = nil) {
     guard let optionalParameter else {
         print("It is an empty optional parameter")
@@ -33,4 +33,4 @@ if let unwrappedOptional = optionalReturningFunc(2023) {
 }else {
     print("Unwrapped optional is \(String(describing: optionalReturningFunc(2023)))")
 }
-
+```
