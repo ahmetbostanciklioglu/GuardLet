@@ -14,9 +14,9 @@ func optinalParamFunc(_ optionalParameter: String? = nil) {
 }
 
 optinalParamFunc("Ahmet")
+```
 
-
-
+```
 func optionalReturningFunc(_ param: Int?) -> String? {
     guard let param  else {
         return nil
